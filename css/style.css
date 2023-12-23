@@ -1,0 +1,360 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Ubuntu",sans-serif;
+  box-sizing: border-box;
+}
+
+.navbar{
+  position: fixed;
+  background-color: transparent;
+  width: 100%;
+  padding: 15px 25px;
+  top: 0;
+  z-index: 999;
+  transition: .3s linear;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  font-size: 18px;
+}
+.navbar ul li{
+  padding: 0px 8px;
+}
+
+.navbar ul li a{
+  color: #212529 !important;
+  font-weight: 450;
+}
+.navbar ul li a:hover{
+  color: #238178 !important;
+}
+
+.inner-width{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 40px;
+}
+
+.navbar .inner-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-menu a{
+  color: #fff !important;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 30px;
+  transition: .2s linear;
+}
+
+.navbar-menu a:hover{
+  color: #48dbfb !important;
+}
+
+.navbar-brand{
+  font-size: 25px !important;
+  color: #238178;
+  font-weight: 500;
+}
+
+.sticky{
+  background-color: #212529;
+  padding: 18px 0;
+  padding: 18px 25px;
+
+}
+
+.sticky .navbar ul li{
+  padding: 0px 8px;
+}
+
+.sticky .navbar-menu a{
+  color: #111;
+}
+
+.sticky .menu-toggler span{
+  background-color: #111;
+}
+
+#home{
+  height: 100vh;
+  min-height: 500px;
+  background: linear-gradient(#000000bd,#08090ab9), url(../images/slider.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home .inner-width{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+#home .content{
+  width: 100%;
+  color: #fff;
+}
+
+#home .content h1{
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+#home .content h1::after{
+  content: "Kaveri Patil";
+  animation: textanim 10s linear infinite;
+}
+
+@keyframes textanim{
+  25%{
+    content: "A Frontend Developer";
+  }
+  50%{
+    content: "Open to Work";
+  }
+  /* 75%{
+    content: "A Youtuber";
+  } */
+}
+
+.sm a{
+  color: #fff;
+  font-size: 35px;
+  margin: 0 10px;
+  transition: .2s linear;
+}
+
+.sm a:hover{
+  color: #238178;
+}
+
+#home .buttons{
+  margin-top: 30px;
+}
+
+#home .buttons a{
+  display: inline-block;
+  margin: 15px 30px;
+  color: #6ec7be;
+  font-size: 15px;
+  font-weight: 500;
+  width: 180px;
+  border: 1px solid #7dbdb6;
+  padding: 14px 0;
+  border-radius: 6px;
+  transition: .2s linear;
+  text-decoration: none;
+}
+
+#home .buttons a:hover
+{
+  background-color: #238178;
+  color: #fff;
+}
+
+.txt-underline h1{
+  color: #082926;
+  font-size: 35px;
+}
+
+/* ABOUT START */
+/* .txt-underline {
+
+  position: relative; 
+}
+
+.txt-underline:before {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 3px;
+  background: #238178;
+  left: 46%;
+  top: 60%;
+  position: absolute;
+} */
+
+
+/* #about{
+  background-color: #f7f7f7;
+} */
+.about-content .abt-inner-content .first-para{
+ font-size: 18px;
+ text-align: justify;
+ line-height: 28px;
+}
+
+.abt-inner-content .card{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border: none !important;
+}
+
+.abt-inner-content .card i{
+  color: #238178 !important;
+}
+
+/* ABOUT END */
+
+/* SKILLS START */
+#skill{
+  background-color: #f7f7f7;
+}
+
+.skills .card{
+  border: none !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: 0.5s;
+  border-radius: 12px;
+}
+
+.skills .card:hover{
+  transform: translateY(-10px);
+  opacity: 0.9;
+  border-radius: 12px;
+}
+
+.skills .card-img-top {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.skills .card-img-top img{
+  /* width: 100px;
+  height: 100px; */
+}
+/* SKILLS END */
+
+/* EDUCATION START */
+#education{
+  background-color: #fff;
+}
+.education-content .card{
+  border: 1px solid #ececec !important;
+  /* border: none !important; */
+  box-shadow: rgba(236, 235, 235, 0.04) 0px 3px 5px;
+  background-color: #fdfdfd;
+}
+/* EDUCATION END */
+
+/* PROJECTS START */
+#projects{
+  background-color: #f7f7f7;
+}
+.projects-content a{
+  text-decoration: none;
+}
+.projects-content .card .card-img-top{
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.projects-content .card img{
+  transition: all .5s ease-out 0s;
+}
+.projects-content .card{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.projects .card:hover .card-img-top img{
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+.projects .card:hover {
+  background-color: #f8f8f8;
+}
+.projects .card:hover .pro-btn a .btn{
+  background-color: #f8f8f8;
+  background-color: #238178 !important;
+  color: #fff;
+}
+.pro-btn a .btn{
+  border: 1px solid #238178 !important;
+  color: #238178;
+  transition: all .4s ;
+}
+
+.pro-btn a .btn:hover{
+  background-color: #238178 !important;
+  color: #fff;
+}
+/* PROJECTS END */
+
+
+/* FOOTER START */
+.footer-content a{
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  padding: 0px 20px;
+}
+/* FOOTER END */
+
+
+@media screen and (max-width: 980px){
+  .navbar-toggler{
+    background-color: white !important;
+  }
+  .menu-toggler{
+    display: block;
+  }
+
+  .navbar-menu{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: #353b48;
+    top: 0;
+    right: -100%;
+    max-width: 400px;
+    padding: 80px 50px;
+    transition: .3s linear;
+  }
+
+  .navbar-menu a{
+    display: block;
+    font-size: 30px;
+    margin: 30px 0;
+  }
+
+  .sticky .navbar-menu{
+    background-color: #f1f1f1;
+  }
+  
+  .navbar-menu.active{
+    right: 0;
+  }
+
+  .menu-toggler.active span:nth-child(1){
+    transform: rotate(-45deg);
+    top: 4px;
+  }
+
+  .menu-toggler.active span:nth-child(2){
+    opacity: 0;
+  }
+
+  .menu-toggler.active span:nth-child(3){
+    transform: rotate(45deg);
+    bottom: 14px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .px-5{
+    /* padding: 0px 5px !important; */
+    padding-right: 0.5rem!important; 
+     padding-left: 0.5rem!important;
+  }
+  .ps-3{
+    padding-left: 0 !important;
+  }
+
+  .abt-inner-content .card .card-content{
+    display: flex !important;
+    justify-content: start !important;
+  }
+}
