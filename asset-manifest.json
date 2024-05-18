@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.0fec07ad.css",
+    "main.js": "/personal-website/static/js/main.3539543d.js",
+    "static/js/453.253ccfac.chunk.js": "/personal-website/static/js/453.253ccfac.chunk.js",
+    "static/media/food_donation.png": "/personal-website/static/media/food_donation.659c449ad97abbef1622.png",
+    "static/media/jewellery_store.png": "/personal-website/static/media/jewellery_store.7af7db35039fbd88a637.png",
+    "static/media/tasty_eats.png": "/personal-website/static/media/tasty_eats.d72516d611e0437ea6b1.png",
+    "static/media/Kaveri_Patil_Resume.pdf": "/personal-website/static/media/Kaveri_Patil_Resume.81c9fe27d81edc02cc89.pdf",
+    "static/media/css-img.png": "/personal-website/static/media/css-img.17138b7f7ff27d937143.png",
+    "static/media/react-img.png": "/personal-website/static/media/react-img.73dbb5bcec516da82694.png",
+    "static/media/bootstrap-img.png": "/personal-website/static/media/bootstrap-img.a692f04a045f8133192d.png",
+    "static/media/expense_tracker.png": "/personal-website/static/media/expense_tracker.12820df72ec147e9cb95.png",
+    "static/media/slider.jpg": "/personal-website/static/media/slider.77f260958798b1b23a16.jpg",
+    "static/media/js-img.png": "/personal-website/static/media/js-img.1859df80c8e0cfe295ac.png",
+    "static/media/slider-pw.png": "/personal-website/static/media/slider-pw.cd2fffe5f0e9ae95d040.png",
+    "static/media/tailwind-img.png": "/personal-website/static/media/tailwind-img.8e81e4c5944b034a5865.png",
+    "static/media/json-img.jpeg": "/personal-website/static/media/json-img.9b2ec294780101f79d9d.jpeg",
+    "static/media/html-img.png": "/personal-website/static/media/html-img.94972f53c025a8fb7e2b.png",
+    "static/media/logo.svg": "/personal-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/personal-website/index.html",
+    "main.0fec07ad.css.map": "/personal-website/static/css/main.0fec07ad.css.map",
+    "main.3539543d.js.map": "/personal-website/static/js/main.3539543d.js.map",
+    "453.253ccfac.chunk.js.map": "/personal-website/static/js/453.253ccfac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fec07ad.css",
+    "static/js/main.3539543d.js"
+  ]
+}
