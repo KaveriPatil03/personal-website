@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.0fec07ad.css",
-    "main.js": "/personal-website/static/js/main.3539543d.js",
+    "main.js": "/personal-website/static/js/main.742a6c98.js",
     "static/js/453.253ccfac.chunk.js": "/personal-website/static/js/453.253ccfac.chunk.js",
     "static/media/food_donation.png": "/personal-website/static/media/food_donation.659c449ad97abbef1622.png",
     "static/media/jewellery_store.png": "/personal-website/static/media/jewellery_store.7af7db35039fbd88a637.png",
@@ -20,11 +20,11 @@
     "static/media/logo.svg": "/personal-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/personal-website/index.html",
     "main.0fec07ad.css.map": "/personal-website/static/css/main.0fec07ad.css.map",
-    "main.3539543d.js.map": "/personal-website/static/js/main.3539543d.js.map",
+    "main.742a6c98.js.map": "/personal-website/static/js/main.742a6c98.js.map",
     "453.253ccfac.chunk.js.map": "/personal-website/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fec07ad.css",
-    "static/js/main.3539543d.js"
+    "static/js/main.742a6c98.js"
   ]
 }
